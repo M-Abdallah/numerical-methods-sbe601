@@ -13,3 +13,5 @@ layout: default
 # Projects
 
 [ Presentation ](Project/slides.html)
+
+[Slides]({{ site.baseurl }}{% link Project/index.html %}){:target="_blank"}
