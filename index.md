@@ -4,14 +4,13 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 ---
-# Assignments :
 
-[Assignment 1](Assignments/assign1)
+# Assignments
+
+[Assignment #1]({{ site.baseurl }}{% link Assignments/assign1.md %}){:target="_blank"}
 
 ---
 
 # Projects
 
-[ Presentation ](Project/slides.html)
-
-[Slides]({{ site.baseurl }}{% link Project/index.html %}){:target="_blank"}
+[Slides]({{ site.baseurl }}{% link Project/slides.html %}){:target="_blank"}
