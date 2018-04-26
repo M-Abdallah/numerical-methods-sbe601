@@ -12,4 +12,4 @@ layout: default
 
 # Projects
 
-[ Presentation ](Project/slides.html#1)
+[ Presentation ](Project/slides.html)
