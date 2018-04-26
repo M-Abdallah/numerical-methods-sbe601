@@ -1,5 +1,6 @@
 class: center, middle
-
+title: Numerical solution for Schrodinger equation
+ 
 # Numerical solution for Schrodinger equation
 
 ---
