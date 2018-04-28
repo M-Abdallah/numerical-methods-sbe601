@@ -15,19 +15,29 @@ Through this page we are going to submit our assignments and Projects
 3. *Mohamed Mostafa Abdallah*
 
 **Instructor**:
+
 Prof. ***Mohamed Roshdi***
 
 ## Projects
 
+### Schrodinger Equation
+
+In 1925, an Austrian scientist Erwin Schrodinger in a pursuit to find an equation explaining the states of particles in the Quantum realm.
+
+The equation was first known for solving quantization problem; it was published by the name " **Quantization as an Eigenvalue Problem** ". Later on, this equation solved some interesting problems in *Quantum Mechanics* like ***Quantum Harmonic Oscillator***, ***Infinite Square Well***.
+Schrodinger Equation is the backbone of *Wave Mechanics* for *Non-relativistic Quantum Mechanics*.
+
+The funny part is that Erwin Schrodinger the founder of *Wave Mechanics* for *Non-relativistic Quantum Mechanics* and presumably one of the great minds behind the early nourishment of *Quantum Mechanics*, was not at ease with the implications of *Quantum Physics*; he himself wrote about saying: "I don't like it, and I'm sorry I ever had anything to do with it."
+
 We are planning to solve Schrodinger Equation using numerical methods
 
-1. TODO: Report
+1. [Presentation]({{ site.baseurl }}{% link Project/slides.html %}){:target="_blank"}
+
+2. TODO: Report
     > Report on the Numerical solution for S.E
-2. TODO: Implentation source code
+3. TODO: Implentation source code
 
-    We are planning to implement the technique using Python.
-3. [Presentation]({{ site.baseurl }}{% link Project/slides.html %}){:target="_blank"}
-
+    > We are planning to implement the technique using Python.
 > References:
 > - [Schrodinger Equation Wiki](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation)
 > - [Numerical Solutions of the Schrödinger Equation]( Ref/schrod.pdf )
@@ -35,5 +45,5 @@ We are planning to solve Schrodinger Equation using numerical methods
 
 ---
 
-## Assignments
 TODO:
+## Assignments
