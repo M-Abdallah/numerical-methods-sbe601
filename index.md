@@ -16,7 +16,7 @@ Through this page we are going to submit our assignments and Projects
 
 **Instructor**:
 
-Prof. ***Mohamed Roshdi***
+Prof. ***Muhammad Rushdi***
 
 ## Projects
 
@@ -38,6 +38,7 @@ We are planning to solve Schrodinger Equation using numerical methods
 3. TODO: Implentation source code
 
     > We are planning to implement the technique using Python.
+
 > References:
 > - [Schrodinger Equation Wiki](https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation)
 > - [Numerical Solutions of the Schrödinger Equation]( Ref/schrod.pdf )
@@ -46,4 +47,5 @@ We are planning to solve Schrodinger Equation using numerical methods
 ---
 
 TODO:
+
 ## Assignments
