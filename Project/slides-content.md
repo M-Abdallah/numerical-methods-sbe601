@@ -182,22 +182,9 @@ The probability is $\psi^* \cdot \psi$ or in other form $\vert \psi \vert ^2$
     - Free Particle : $\mathcal{V}(\vec{r},t) = 0$
 
 --
-
     - Quantum Harmonic Oscillator : $\mathcal{V}(\vec{r},t)$ = $\frac{1}{2} k \hat{x} ^2$
 
 ---
-
-<!-- An example for the S.E solution is at potential = 0, simply the free-particle equation
-
---
-
-$$
-\imath \hbar \frac{\partial}{\partial t} \vert \psi (r,t)\rangle = \frac{-\hbar}{2\mu} \nabla^2 \vert \psi(r,t)\rangle 
-$$
---
-![S.E at V=0](../images/wave-v0.gif)
-
---- -->
 
 # Biomedical applications for S.E
 
@@ -210,7 +197,6 @@ The scientists who work in nanotechnology  use S.E in various applications
     - Basically it describes the particle moving as a wave in the Garphene sheet/tube
 
 --
-
 2. Quantum dots and its light frequencies
 
 --
@@ -252,11 +238,15 @@ $\hat{\mathcal{H}}\cdot \psi(\vec{r},t) = E \psi(\vec{r},t)$
 
 --
 
-Which means that to solve the right part we can find the eigen values which represent the energy levels and the eigen vector represent the $\psi$
-
->We are planning to implement the solution using Python
+Which means that to solve the right part of this :
+$$
+\imath \hbar \frac{\partial}{\partial t} \psi (\vec{r},t) = \left[ \frac{-\hbar}{2\mu} \nabla^2+ \mathcal{V}(\vec{r},t) \right] \psi(\vec{r},t)
+$$
+we can find the eigen values which represent the energy levels and the eigen vector represent the $\psi$
 
 ---
+
+>We are planning to implement the solution using Python
 
 ---
 
