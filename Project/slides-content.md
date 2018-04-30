@@ -167,6 +167,10 @@ $$
 \imath \hbar \frac{\partial}{\partial t} \vert \psi (\vec{r},t)\rangle = \left[ \frac{-\hbar}{2\mu} \nabla^2+ \mathcal{V}(\vec{r},t) \right]\vert \psi(\vec{r},t)\rangle
 $$
 
+--
+
+The probability is $\psi^* \cdot \psi$ or in other form $\vert \psi \vert ^2$
+
 ---
 
 # Different interpretations of S.E
@@ -179,11 +183,11 @@ $$
 
 --
 
-    - Quantum Harmonic Oscillator : $\mathcal{V}(\vec{r},t) = \frac{1}{2}k\hat{x}^2$
+    - Quantum Harmonic Oscillator : $\mathcal{V}(\vec{r},t)$ = $\frac{1}{2} k \hat{x} ^2$
 
 ---
 
-An example for the S.E solution is at potential = 0, simply the free-particle equation 
+<!-- An example for the S.E solution is at potential = 0, simply the free-particle equation
 
 --
 
@@ -193,14 +197,25 @@ $$
 --
 ![S.E at V=0](../images/wave-v0.gif)
 
----
+--- -->
 
 # Biomedical applications for S.E
 
 The scientists who work in nanotechnology  use S.E in various applications
 
 1. The motion of electrons in nanotubes
+
+--
+
+    - Basically it describes the particle moving as a wave in the Garphene sheet/tube
+
+--
+
 2. Quantum dots and its light frequencies
+
+--
+
+    - Most probably scientists are more concerned with the discrete energy states the quantum dots
 
 ---
 
@@ -208,12 +223,41 @@ The scientists who work in nanotechnology  use S.E in various applications
 
 We will study different approaches to solve it
 
-1. Crank-Nicolson Method
-2. Finite difference
+1. Finite difference
+2. Crank-Nicolson Method
+
+---
+
+# Finite element
+
+$\frac{\partial^2}{\partial x ^2} f(\vec{r},t) = \frac{f(\vec{r}+\vec{\Delta r},t)-2*f(\vec{r},t)+f(\vec{r}+\vec{\Delta r},t)}{\Delta r ^2}$
 
 --
 
+We can manifest that this as a matrix in this form:
+
+![matrixLap](../images/matrix1.png)
+
+---
+
+# We are going to use the property of eigen values and vectors
+
+Since: 
+
+$\hat{\mathcal{H}}$ is an Eigen operator which mean When it applies on a function it brings out the eigen value associated with it without changing the function
+
+--
+
+$\hat{\mathcal{H}}\cdot \psi(\vec{r},t) = E \psi(\vec{r},t)$
+
+--
+
+Which means that to solve the right part we can find the eigen values which represent the energy levels and the eigen vector represent the $\psi$
+
 >We are planning to implement the solution using Python
+
+---
+
 ---
 
 # References
