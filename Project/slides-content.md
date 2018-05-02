@@ -146,7 +146,7 @@ Since :
 $\hat{\mathcal{H}}\cdot \psi(\vec{r},t) = E$
 
 **Therfore**:
-$$
+$$e
 \imath \hbar \frac{\partial}{\partial t} \psi (\vec{r},t) = \hat{\mathcal{H}}\cdot \psi(\vec{r},t)
 $$
 
@@ -178,11 +178,10 @@ The probability is $\psi^* \cdot \psi$ or in other form $\vert \psi \vert ^2$
 - This describes the quantum state of a particle bounded by specific potential field :
 
 --
-
     - Free Particle : $\mathcal{V}(\vec{r},t) = 0$
 
 --
-    - Quantum Harmonic Oscillator : $\mathcal{V}(\vec{r},t)$ = $\frac{1}{2} k \hat{x} ^2$
+    - Quantum Harmonic Oscillator : $\mathcal{V}(\vec{r},t) = \frac{1}{2} k \hat{x} ^2$
 
 ---
 
@@ -216,19 +215,29 @@ We will study different approaches to solve it
 
 # Finite element
 
-$\frac{\partial^2}{\partial x ^2} f(\vec{r},t) = \frac{f(\vec{r}+\vec{\Delta r},t)-2*f(\vec{r},t)+f(\vec{r}+\vec{\Delta r},t)}{\Delta r ^2}$
+$\frac{\partial^2}{\partial x ^2} f(\vec{r},t) = \frac{f(\vec{r}+\Delta \vec{r},t)-2*f(\vec{r},t)+f(\vec{r}-\Delta \vec{r},t)}{\Delta r ^2}$
 
 --
 
 We can manifest that this as a matrix in this form:
 
-![matrixLap](../images/matrix1.png)
+<!-- ![matrixLap](../images/matrix1.png) -->
+
+$$
+\begin{bmatrix}
+    -2  &   1   &   0   &   \dots   &   \dots   &   0 \\\\
+    1   &   -2  &   1   &   0       &   \dots   &   0 \\\\
+    0   & \ddots & \ddots & \ddots & \vdots & \vdots \\\\
+    \vdots &  \ddots  & \ddots & \ddots & \vdots & \vdots \\\\
+    0 & 0 & 0 & 0 & 0 & -2 
+\end{bmatrix}
+$$
 
 ---
 
 # We are going to use the property of eigen values and vectors
 
-Since: 
+Since:
 
 $\hat{\mathcal{H}}$ is an Eigen operator which mean When it applies on a function it brings out the eigen value associated with it without changing the function
 
