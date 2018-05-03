@@ -34,7 +34,7 @@ In his first paper he published, he was trying to explain and show mathematicall
 # Breaking apart S.E
 
 To understand Schrodinger equation we first need to go back to the basics of energy:
-    
+
 --
 
 - The total energy of any particle is its Kinetic energy + its Potential Energy
@@ -178,10 +178,11 @@ The probability is $\psi^* \cdot \psi$ or in other form $\vert \psi \vert ^2$
 - This describes the quantum state of a particle bounded by specific potential field :
 
 --
+
     - Free Particle : $\mathcal{V}(\vec{r},t) = 0$
 
 --
-    - Quantum Harmonic Oscillator : $\mathcal{V}(\vec{r},t) = \frac{1}{2} k \hat{x} ^2$
+    - Quantum Harmonic Oscillator : $\mathcal{V}(\vec{r},t) = \frac{1}{2} k \hat{x}^2$
 
 ---
 
@@ -225,11 +226,11 @@ We can manifest that this as a matrix in this form:
 
 $$
 \begin{bmatrix}
-    -2  &   1   &   0   &   \dots   &   \dots   &   0 \\\\
-    1   &   -2  &   1   &   0       &   \dots   &   0 \\\\
-    0   & \ddots & \ddots & \ddots & \vdots & \vdots \\\\
-    \vdots &  \ddots  & \ddots & \ddots & \vdots & \vdots \\\\
-    0 & 0 & 0 & 0 & 0 & -2 
+    -2  &   1   &   0   &   \dots   &   \dots   &   0 \\\
+    1   &   -2  &   1   &   0       &   \dots   &   0 \\\
+    0   & \ddots & \ddots & \ddots & \vdots & \vdots \\\
+    \vdots &  \ddots  & \ddots & \ddots & \vdots & \vdots \\\
+    0 & 0 & 0 & 0 & 0 & -2
 \end{bmatrix}
 $$
 

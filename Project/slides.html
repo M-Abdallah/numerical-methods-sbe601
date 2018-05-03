@@ -32,23 +32,26 @@
 
 </textarea>
   <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"></script> -->
-  <script type="text/javascript" src="../MathJax/MathJax.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js"></script>
+  <!-- <script type="text/javascript" src="../MathJax/MathJax.js"></script> -->
   <script type="text/javascript">
     var options = { sourceUrl: './slides-content.md' };
     var slideshow = remark.create(options);
     MathJax.Hub.Config({
-      extensions: ["tex2jax.js" ],
-      TeX: { extensions: ["AMSmath.js", "AMSsymbols.js"]},
+      extensions: ["tex2jax.js"],
+      tex2jax: { inlineMath: [['$', '$']], skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] },
       jax: ["input/TeX", "output/HTML-CSS"],
-      tex2jax: {
-        inlineMath: [ ['$','$'], ],
-        displayMath: [ ['$$','$$'] ],
-        // processEscapes: fal
+      "HTML-CSS": {
+        availableFonts: ["TeX"],
+        imageFont: null
       },
-    "HTML-CSS": { fonts: ["TeX"] }
-  });
-  </script>  
+      MathMenu: {
+        showRenderer: false,
+        showFontMenu: false,
+        showLocale: false
+      }
+    });
+  </script>
 </body>
 
 </html>

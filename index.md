@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
+layout: mathPage
 ---
 # CUFE-Masters SBE601
 
@@ -19,6 +19,20 @@ Through this page we are going to submit our assignments and Projects
 Prof. ***Muhammad Rushdi***
 
 ## Projects
+
+$$
+\imath \hbar \frac{\partial}{\partial t} \vert \psi (\vec{r},t)\rangle = \left[ \frac{-\hbar}{2\mu} \nabla^2+ \mathcal{V}(\vec{r},t) \right]\vert \psi(\vec{r},t)\rangle
+$$
+
+$$
+\begin{bmatrix}
+    -2  &   1   &   0   &   \dots   &   \dots   &   0 \\
+    1   &   -2  &   1   &   0       &   \dots   &   0 \\
+    0   & \ddots & \ddots & \ddots & \vdots & \vdots \\
+    \vdots &  \ddots  & \ddots & \ddots & \vdots & \vdots \\
+    0 & 0 & 0 & 0 & 0 & -2 
+\end{bmatrix}
+$$
 
 ### Schrodinger Equation
 
