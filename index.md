@@ -20,19 +20,6 @@ Prof. ***Muhammad Rushdi***
 
 ## Projects
 
-$$
-\imath \hbar \frac{\partial}{\partial t} \vert \psi (\vec{r},t)\rangle = \left[ \frac{-\hbar}{2\mu} \nabla^2+ \mathcal{V}(\vec{r},t) \right]\vert \psi(\vec{r},t)\rangle
-$$
-
-$$
-\begin{bmatrix}
-    -2  &   1   &   0   &   \dots   &   \dots   &   0 \\
-    1   &   -2  &   1   &   0       &   \dots   &   0 \\
-    0   & \ddots & \ddots & \ddots & \vdots & \vdots \\
-    \vdots &  \ddots  & \ddots & \ddots & \vdots & \vdots \\
-    0 & 0 & 0 & 0 & 0 & -2 
-\end{bmatrix}
-$$
 
 ### Schrodinger Equation
 
@@ -42,6 +29,11 @@ The equation was first known for solving quantization problem; it was published 
 Schrodinger Equation is the backbone of *Wave Mechanics* for *Non-relativistic Quantum Mechanics*.
 
 The funny part is that Erwin Schrodinger the founder of *Wave Mechanics* for *Non-relativistic Quantum Mechanics* and presumably one of the great minds behind the early nourishment of *Quantum Mechanics*, was not at ease with the implications of *Quantum Physics*; he himself wrote about saying: "I don't like it, and I'm sorry I ever had anything to do with it."
+
+$$
+\imath \hbar \frac{\partial}{\partial t} \vert \psi (\vec{r},t)\rangle = \left[ \frac{-\hbar}{2\mu} \nabla^2+ \mathcal{V}(\vec{r},t) \right]\vert \psi(\vec{r},t)\rangle
+$$
+
 
 We are planning to solve Schrodinger Equation using numerical methods
 
