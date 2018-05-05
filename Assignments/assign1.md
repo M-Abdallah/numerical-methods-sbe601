@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: mathPage
+title: Assignment 01 Solution
+author: Mohamed Abdallah
 ---
+# Book Chapter
 
-# This is assignment 1
+[SBE601-S17-NumericalMethodsBME-Assignment01]({{ site.baseurl }}{% link Assignments/Ref/SBE601-S17-NumericalMethodsBME-Assignment01.pdf %}){:target="_blank"}
 
-
-\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]

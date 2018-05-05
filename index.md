@@ -41,7 +41,8 @@ We are planning to solve Schrodinger Equation using numerical methods
 
 2. TODO: Report
     > Report on the Numerical solution for S.E
-3. TODO: Implentation source code
+
+3. TODO: Implementation source code
 
     > We are planning to implement the technique using Python.
 
@@ -55,3 +56,8 @@ We are planning to solve Schrodinger Equation using numerical methods
 TODO:
 
 ## Assignments
+
+1. [Assignment 00]({{ site.baseurl }}{% link Assignments/assign0.md %}){:target="_blank"}
+2. [Assignment 01]({{ site.baseurl }}{% link Assignments/assign1.md %}){:target="_blank"}
+3. [Assignment 02]({{ site.baseurl }}{% link Assignments/assign2.md %}){:target="_blank"}
+4. [Assignment 03]({{ site.baseurl }}{% link Assignments/assign3.md %}){:target="_blank"}
